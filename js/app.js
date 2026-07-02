@@ -99,7 +99,7 @@ const editStudent = async(id)=>{
     update_modal.style.display="flex";
 
     const res = await fetch(`php/edit-data.php?id=${id}`, {
-        method: "GET",
+        //method: "GET",
         headers:{
             "Content-Type": "application/json"
         }
