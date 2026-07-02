@@ -114,7 +114,7 @@ const editStudent = async(id)=>{
             document.querySelector("#edit_age").value=output[i].std_age;
             document.querySelector("#edit_country").value=output[i].std_country;
         }
-    }
+    } Куку
 };
 
 //update Student
