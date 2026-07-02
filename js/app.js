@@ -117,6 +117,8 @@ const editStudent = async(id)=>{
     }
 };
 
+Новая инфа
+
 //update Student
 update.addEventListener("click", async()=>{
     let name = document.querySelector("#edit_name").value;
